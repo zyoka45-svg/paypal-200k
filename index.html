@@ -10,8 +10,8 @@
 
 <div id="paypal-button-container"></div>
 
-<script src="https://www.paypal.com/sdk/js?client-id=ATZHTH4WawB_P-KyzYiHhsr89i7WoLtCjb_cXnPH06FXXfXDZfEZvWbHDZ7gB30YS12HBnGZ_FxMQ0uK ID&currency=JPY"></script>
-<script>
+<script src="https://www.paypal.com/sdk/js?client-id=ATZHTH4WawB_P-KyzYiHhsr89i7WoLtCjb_cXnPH06FXXfXDZfEZvWbHDZ7gB30YS12HBnGZ_FxMQ0uK&currency=JPY&components=buttons"></script>
+
 paypal.Buttons({
   createOrder: function(data, actions) {
     return actions.order.create({
